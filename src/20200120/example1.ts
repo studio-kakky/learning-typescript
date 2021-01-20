@@ -85,5 +85,5 @@ let numberList = [1,2,3,4]
 
 const func2 = (max: number): number => {
   const found = numberList.find(v => v > max); // エラーになる
-  return found !== null ? found : 0;
+  return found !== undefined ? found : 0;
 }
