@@ -69,14 +69,9 @@ let u: undefined = undefined;
 let n: null = null;
 let number = 1
 
-u = null;
-n = undefined;
-number = null;
-
 /* --strictNullChecks */
 
 let num1: number = 1
-num1 = null // エラーになる
 
 let num2: number | null | undefined = 1
 num2 = null
